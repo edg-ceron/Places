@@ -11,6 +11,7 @@ class App extends Component {
           <div>
             <Title />
             <button>Crear cuenta gratuita</button>
+            <img src={process.env.PUBLIC_URL + '/imagenes/background.png'} />
             <div>
               <ul>
                 <li>
